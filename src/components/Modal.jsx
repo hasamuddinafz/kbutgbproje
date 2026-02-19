@@ -1,6 +1,6 @@
 // Modal.js
 import React, { useEffect, useState } from 'react';
-import flyer from '../images/flyer.jpg'; // Replace with your image
+import flyer from '../images/afis.jpeg'; // Replace with your image
 
 const Modal = () => {
   const [showModal, setShowModal] = useState(false);

@@ -2,257 +2,463 @@ import Aos from 'aos';
 import React, { useEffect } from 'react'
 
 function EgitimProgrami() {
-    useEffect(()=>{
+    useEffect(() => {
         Aos.init({
-          duration: 1000,
+            duration: 1000,
         });
-      })
-  return (
-    <div>
-        <div className="hero d-flex align-items-center justify-content-center">
-            <div className="text-light p-5"><h1 className='poppins-bold'>EĞİTİM PROGRAMI</h1></div>
-        </div>
-        <div class="container py-9 py-lg-11 position-relative z-index-1 my-5 py-5" >
-            <div class="row text-justified">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h5 class="mb-4 main-color poppins-bold aos-init aos-animate" data-aos="fade-up">Eğitim Programı</h5>
-                    <div class="nav nav-pills flex-column aos-init aos-animate" id="myTab" role="tablist" data-aos="fade-up">
-                        <button class="nav-link px-4 text-start mb-3 active" id="d1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab" aria-controls="day1" aria-selected="true">
-                            <span class="d-block fs-5 fw-bold">1. GÜN</span>
-                            <span class="small">CUMARTESI 26 EKİM 2024</span>
-                        </button>
-                        
-                        <button class="nav-link px-4 text-start" id="d2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab" aria-controls="day2" aria-selected="false" tabindex="-1">
-                            <span class="d-block fs-5 fw-bold">2. GÜN</span>
-                            <span class="small">PAZAR 27 EKİM 2024</span>
-                        </button>
-                    </div>
-                </div>
-                
-                <div class="col-lg-8 col-xl-7">
-                    <div data-aos="fade-up" class="tab-content aos-init aos-animate" id="myTabContent">
-                        <div class="tab-pane fade active show" id="day1" role="tabpanel" aria-labelledby="d1-tab">
-                            <ul class="pt-4 list-unstyled mb-0">
-                                <li class="d-flex flex-column flex-md-row py-4" data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">08:00 - 08:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Kayıt ve Açılış</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Dr. Öğr. Üyesi Samet NOHUTÇU
-                                        </p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Genel Bilgilendirme, Etkinlik Programının Amaç ve Hedefleri ile ilgili bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4" data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">09:00 - 09:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Bilimin Felsefesi ve Bilimsel Araştırma Metodolojisi</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Dr.Öğr. Üyesi Cihat ŞEKER
-                                        </p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Bilim felsefesinin temelleri ve bilimsel araştırma metodolojilerini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; Bilimin doğası, bilgi üretme süreçleri, bilimsel yöntemler ve araştırma teknikleri hakkında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00 -10:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Frascati Kılavuzuna göre Ar-Ge</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Prof.Dr. Fatih Mehmet BOTSALI</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Frascati Kılavuzu’nun temel prensipleri ve Ar-Ge faaliyetlerinin nasıl tanımlandığı, sınıflandırıldığı ve ölçüldüğü konularında derinlemesine bir bilgi aktarımını sağlamak amaçlanmaktadır. Bu kapsamda katılımcılar, Ar-Ge’nin ekonomik, sosyal ve bilimsel önemini kavrayacak ve bu faaliyetleri yönetme ve değerlendirme becerilerini geliştireceklerdir.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:00 -11:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Frascati Kılavuzuna göre Ar-Ge</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Prof.Dr. Fatih Mehmet BOTSALI</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Frascati Kılavuzu’nun temel prensipleri ve Ar-Ge faaliyetlerinin nasıl tanımlandığı, sınıflandırıldığı ve ölçüldüğü konularında derinlemesine bir bilgi aktarımını sağlamak amaçlanmaktadır. Bu kapsamda katılımcılar, Ar-Ge’nin ekonomik, sosyal ve bilimsel önemini kavrayacak ve bu faaliyetleri yönetme ve değerlendirme becerilerini geliştireceklerdir.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:00 -12:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Literatür Taraması ve Hipotez Oluşturma</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Doç. Dr. Muharrem Hilmi AKSOY</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Bilimsel araştırma süreçlerinde hipotez oluşturma becerilerini kazandırmak amaçlanmaktadır. Bu kapsamda katılımcılara; Hipotez geliştirme, formüle etme, test etme ve analiz etme konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
+    })
+    return (
+        <div>
+            <div className="hero d-flex align-items-center justify-content-center">
+                <div className="text-light p-5"><h1 className='poppins-bold'>EĞİTİM PROGRAMI</h1></div>
+            </div>
+            <div class="container py-9 py-lg-11 position-relative z-index-1 my-5 py-5" >
+                <div class="row text-justified">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h5 class="mb-4 main-color poppins-bold aos-init aos-animate" data-aos="fade-up">Eğitim Programı</h5>
+                        <div class="nav nav-pills flex-column aos-init aos-animate" id="myTab" role="tablist" data-aos="fade-up">
+                            <button class="nav-link px-4 text-start mb-3 active" id="d1-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab" aria-controls="day1" aria-selected="true">
+                                <span class="d-block fs-5 fw-bold">1. GÜN</span>
+                                <span class="small">CUMA 26 HAZİRAN 2026</span>
+                            </button>
 
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:45 - 14:00</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5 className='alert alert-success'>Öğle Arası</h5>
-                                    </div>
-                                </li>
+                            <button class="nav-link px-4 text-start" id="d2-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab" aria-controls="day2" aria-selected="false" tabindex="-1">
+                                <span class="d-block fs-5 fw-bold">2. GÜN</span>
+                                <span class="small">CUMARTESİ 27 HAZİRAN 2026</span>
+                            </button>
 
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">14:00 -14:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Araştırmanın Planlanması ve Deneysel Tasarım</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Doç. Dr. Muharrem Hilmi AKSOY</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Bilimsel araştırma sürecinin nasıl planlanacağını ve yürütüleceğini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; Araştırma probleminin tanımlanmasından veri toplama, analiz etme ve sonuçların raporlanmasına kadar tüm aşamalarda bilgi ve beceri kazandırılması sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">15:00 -15:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Proje Hazırlama ve Yürütme ile ilgili Bilimsel Etik Uygulamaları</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Dr. Öğr. Üyesi Cihat ŞEKER</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Bilimsel araştırma projeleri hazırlama ve yürütme süreçlerinde etik ilkeleri uygulamak ile ilgili bilgi verilmesi amaçlanmaktadır. Bu kapsamda katılımcılara; Bilimsel araştırma etiği, sorumluluklar ve bilgi güvenliği gibi konularda bilgi aktarımı sağlanacak ve bu ilkeleri projelerine nasıl entegre edebilecekleri anlatılacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">16:00 -16:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Proje Yönetimi ve Takım Çalışması (Teorik)</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Doç. Dr. Hasan TEKİN</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Proje yönetimi süreçlerini anlatmak ve takım çalışması becerilerini geliştirmek amaçlanmaktadır. Bu kapsamda katılımcılara; Proje planlama, kaynak yönetimi, risk yönetimi ve takım dinamikleri konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:00 -18:30 <br /> Ders Saati: 2</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Proje Yönetimi ve Takım Çalışması (Uygulama)</h5>
-                                        <p class="mb-0">
-                                            <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> 
-                                            <ul>
-                                                <li>Doç. Dr. Hasan TEKİN</li>
-                                                <li>Dr. Öğr. Üyesi Cihat ŞEKER</li>
-                                                <li>Dr. Öğr. Üyesi Samet NOHUTÇU</li>
-                                                <li>Yüksek Mühendis İbrahim ZORLU</li>
-                                            </ul> 
-                                         </p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Proje yönetimi süreçlerini anlatmak ve takım çalışması becerilerini geliştirmek amaçlanmaktadır. Bu kapsamda katılımcılara; Proje planlama, kaynak yönetimi, risk yönetimi ve takım dinamikleri konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                            </ul>
+                            <button class="nav-link px-4 text-start" id="d3-tab" data-bs-toggle="tab" data-bs-target="#day3" type="button" role="tab" aria-controls="day3" aria-selected="false" tabindex="-1">
+                                <span class="d-block fs-5 fw-bold">3. GÜN</span>
+                                <span class="small">PAZAR 28 HAZİRAN 2026</span>
+                            </button>
+
                         </div>
-                        <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="d2-tab" data-aos="fade-up">
-                            <ul class="pt-4 list-unstyled mb-0">
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">08:00 - 08:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5> <span className='poppins-bold second-color'>DERS ADI:</span> Ar-Ge Süreci Yönetimi</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Prof.Dr. Fatih Mehmet BOTSALI</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Ar-Ge süreçlerinin yönetimi ile ilgili temel prensipleri ve uygulamaları öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; Ar-Ge projelerinin planlanması, yürütülmesi, izlenmesi ve sonuçlandırılması konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">09:00 - 09:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> TÜBİTAK Ar-Ge Destek Programları</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Doç. Dr. Muharrem Hilmi AKSOY</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> TÜBİTAK tarafından sunulan Ar-Ge destek programlarını tanıtmak ve bu programlardan nasıl yararlanıcağını öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; TÜBİTAK’ın destek mekanizmaları, başvuru süreçleri, proje yönetimi ve raporlama gibi konularda bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00 -10:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> TEYDEB Çağrı ve Başvuru Süreci</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Doç. Dr. Muharrem Hilmi AKSOY</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> TEYDEB tarafından sunulan çağrı ve başvuru süreçlerini tanıtmak amaçlanmaktadır. Bu kapsamda katılımcılara; TEYDEB destek programları, başvuru ve değerlendirme süreçleri, proje yönetimi ve raporlama konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:00 -11:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Uluslararası Destekler, Avrupa Birliği Fon ve Projeleri, Fikri Sınai Mülkiyet Hakları</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Yüksek Mühendis İbrahim ZORLU</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Katılımcılara uluslararası fon kaynaklarından faydalanma ve proje hazırlama becerilerini kazandırmak, Avrupa Birliği Fonlarına erişim ve AB projeleri sürecini anlatılacaktır. Bunun yanı sıra Fikri Mülkiyet kavramını tanıtmak ve önemini vurgulamak, Fikri Sınai Mülkiyet Haklarına ilişkin temel kavramları öğretmek, Fikri Mülkiyet Haklarının çeşitleri: Patent, telif hakkı, ticari marka, endüstriyel tasarım vb. konularında bilgi aktarımı sağlanacaktır. </p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:00 -12:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Ar-Ge Proje Hazırlama</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Yüksek Mühendis İbrahim ZORLU</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Ar-Ge projelerinin nasıl hazırlanacağını, planlanacağını ve yürütüleceğini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; Ar-Ge projelerinin yazımı, başvuru süreçleri, yönetimi ve raporlanması konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:45 - 14:00</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5 className='alert alert-success'>Öğle Arası</h5>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">14:00 -14:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Teknopark Proje Süreçleri</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Yüksek Mühendis İbrahim ZORLU</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Teknoparkların işleyişini, proje geliştirme süreçlerini ve yönetim metodolojilerini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; Teknopak kavramı ve rolü, Proje geliştirme süreçleri, Finansman ve iş geliştirme, Performans ölçümü ve değerlendirme ve Sürdürülebilirlik ve Gelecek Perspektifleri ile ilgili bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">15:00 -15:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Proje İzleme Süreci</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Prof.Dr. Fatih Mehmet BOTSALI</p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Proje yönetimi çerçevesinde proje izleme ve kontrol süreçlerini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; projelerin zamanında, bütçeye uygun ve belirlenen kalite standartlarında tamamlanmasını sağlamak için gerekli olan izleme teknikleri, araçları ve yöntemleri konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">16:00 -16:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Proje Başvuru Uygulaması (Teorik)</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Doç. Dr. Muharrem Hilmi AKSOY  </p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Ar-Ge, inovasyon ve diğer alanlarda proje başvurusu yapma süreçlerini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; proje fikirlerini geliştirme, başvuru dökümanlarını hazırlama, değerlendirme kriterlerine uygun projeler yazma ve proje başvuru sistemlerini kullanma konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:00 -17:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Proje Başvuru Uygulaması (Uygulama)</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span>
-                                            <ul>
-                                                <li>Prof.Dr. Fatih Mehmet BOTSALI</li>
-                                                <li>Dr. Öğr. Üyesi Cihat ŞEKER</li>
-                                                <li>Doç. Dr. Muharrem Hilmi AKSOY</li>
-                                                <li>Yüksek Mühendis İbrahim ZORLU</li>
-                                            </ul> 
-                                        </p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Ar-Ge, inovasyon ve diğer alanlarda proje başvurusu yapma süreçlerini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; proje fikirlerini geliştirme, başvuru dökümanlarını hazırlama, değerlendirme kriterlerine uygun projeler yazma ve proje başvuru sistemlerini kullanma konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex flex-column flex-md-row py-4 " data-aos="fade-up">
-                                    <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">18:00 -18:45 <br /> Ders Saati: 1</span>
-                                    <div class="flex-grow-1 ps-4 border-start border-3">
-                                        <h5><span className='poppins-bold second-color'>DERS ADI:</span> Proje Başvuru Uygulaması (Uygulama)</h5>
-                                        <p class="mb-0">
-                                        <span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> 
-                                            <ul>
-                                                <li>Prof.Dr. Fatih Mehmet BOTSALI</li>
-                                                <li>Dr. Öğr. Üyesi Cihat ŞEKER</li>
-                                                <li>Doç. Dr. Muharrem Hilmi AKSOY</li>
-                                                <li>Yüksek Mühendis İbrahim ZORLU</li>
-                                            </ul> 
-                                        </p>
-                                        <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Ar-Ge, inovasyon ve diğer alanlarda proje başvurusu yapma süreçlerini öğretmek amaçlanmaktadır. Bu kapsamda katılımcılara; proje fikirlerini geliştirme, başvuru dökümanlarını hazırlama, değerlendirme kriterlerine uygun projeler yazma ve proje başvuru sistemlerini kullanma konularında bilgi aktarımı sağlanacaktır.</p>
-                                    </div>
-                                </li>
-                            </ul>
+                    </div>
+
+                    <div class="col-lg-8 col-xl-7">
+                        <div data-aos="fade-up" class="tab-content aos-init aos-animate" id="myTabContent">
+                            <div class="tab-pane fade active show" id="day1" role="tabpanel" aria-labelledby="d1-tab">
+                                <ul class="pt-4 list-unstyled mb-0">
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">08:00 - 08:45 <br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Teknoloji Tabanlı Girişimcilik Ekosistemi ve TRL Analizi</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> MUHARREM HİLMİ AKSOY</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Girişimcilik Temel Kavramları ve Teknoloji Hazırlık Seviyeleri</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Teknoloji tabanlı girişimciliğin
+                                                dinamikleri, startup ve KOBİ
+                                                farkları ile Ar-Ge projelerinde TRL
+                                                (Teknoloji Hazırlık Seviyesi)
+                                                belirleme süreçleri işlenecektir.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">09:00 - 09:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Problem Doğrulama ve Müşteri Keşfi Yöntemleri</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> MUHARREM HİLMİ AKSOY</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Tasarım Odaklı Düşünme ve Müşteri Mülakatları</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Pazar analizi (TAM, SAM, SOM)
+                                                teknikleri, "Mom Test" (Anni Testi)
+                                                ile doğru soru sorma metodolojisi
+                                                ve müşteri persona (kimlik)
+                                                kartlarının oluşturulması
+                                                anlatılacaktır. (Ders sonu 10
+                                                soruluk değerlendirme testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00 - 10:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> MVP Stratejileri - I: Önceliklendirme ve Kapsam</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> CİHAT ŞEKER</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Minimum Uygulanabilir Ürün Felsefesini Anlamak</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Mükemmel ürün tuzağından
+                                                kaçınmak için MVP kavramı,
+                                                özellik önceliklendirme matrisleri
+                                                (MoSCoW Yöntemi) ve ürün yol
+                                                haritası (roadmap) oluşturma
+                                                teknikleri ele alınacaktır.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:00 - 11:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> MVP Stratejileri - II: Hızlı Prototipleme Araçları</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> CİHAT ŞEKER</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> No-Code Araçlar ve Prototip Test Süreçleri</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Yazılım bilgisi gerektirmeyen (No
+                                                Code/Low-Code) araçlarla hızlı
+                                                prototip üretme, Landing Page
+                                                (Açılış Sayfası) hazırlama ve
+                                                kullanıcı geri bildirimi (Feedback
+                                                Loop) toplama süreçleri uygulamalı
+                                                gösterilecektir. (Ders sonu 10
+                                                soruluk değerlendirme testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:00 - 12:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Tekno-Girişim Hukuku - I: Fikri ve Sınai Mülkiyet Hakları</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> MAHMUT ESAT YILMAZ</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Patent, Marka ve Faydalı Model Süreçleri</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Ar-Ge çıktılarının korunması,
+                                                patent araştırma teknikleri, fikri
+                                                mülkiyet stratejileri ve teknoloji
+                                                transfer ofisleri (TTO) ile çalışma
+                                                prensipleri işlenecektir.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:45 - 14:00</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5 className='alert alert-success'>Öğle Arası</h5>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">14:00 - 14:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Tekno-Girişim Hukuku - II: Şirketleşme ve Sözleşmeler</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> MAHMUT ESAT YILMAZ</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Şirket Türleri, Ortaklık Yapısı ve Yatırım Sözleşmeleri</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Teknokentlerde şirket kuruluş
+                                                süreçleri, vergi avantajları,
+                                                kurucular sözleşmesi
+                                                (Shareholders Agreement) ve
+                                                gizlilik sözleşmelerinin (NDA) kritik
+                                                maddeleri analiz edilecektir. (Ders
+                                                sonu 10 soruluk değerlendirme
+                                                testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">15:00 - 15:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> İş Modeli Tasarımı - I: Değer Önerisi Tasarımı</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mustafa Halid Karaarslan</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> İş Modeli Kanvası ve Değer-Müşteri Uyumu</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> İş Modeli Kanvası'nın sağ tarafı
+                                                (Müşteri Segmentleri, Değer
+                                                Önerisi, Kanallar, İlişkiler) ve
+                                                Product-Market Fit (Ürün-Pazar
+                                                Uyumu) kavramları teorik olarak
+                                                anlatılacaktır.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">16:00 - 16:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> İş Modeli Tasarımı - II: Gelir ve Maliyet Yapıları</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mustafa Halid Karaarslan</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Finansal Sürdürülebilirlik ve Kaynak Yönetimi</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> İş Modeli Kanvası'nın sol tarafı
+                                                (Temel Ortaklar, Etkinlikler,
+                                                Kaynaklar) ile gelir modelleri ve
+                                                maliyet yapısının kurgulanması
+                                                örnek vakalar üzerinden
+                                                işlenecektir. (Ders sonu 10 soruluk
+                                                değerlendirme testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:00 - 17:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Ürün ve Marka Yönetimi</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Simge Kütükçüler</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Tutarlı Davranışlar, Marka Konumlandırma ve Ürün Geliştirme Süreçleri</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Bu oturumda katılımcılara tüketici
+                                                davranışlarının marka stratejilerine
+                                                etkisi, hedef kitle analizi, marka
+                                                konumlandırma yöntemleri ve ürün
+                                                geliştirme süreçlerinde konsept
+                                                oluşturma adımları aktarılacaktır.
+                                                Ayrıca sosyal medya
+                                                platformlarında marka kimliği
+                                                oluşturma, dijital iletişim stratejileri
+                                                ve sürdürülebilir marka yönetimi
+                                                uygulamalı örneklerle ele
+                                                alınacaktır.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="tab-pane fade" id="day2" role="tabpanel" aria-labelledby="d2-tab" data-aos="fade-up">
+                                <ul class="pt-4 list-unstyled mb-0">
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">08:00 - 08:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Uygulamalı İş Modeli Atölyesi - I: Taslak Oluşturma</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mustafa Halid Karaarslan</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Kanvas Doldurma Çalışması</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Katılımcılar gruplar halinde kendi
+                                                projelerinin ilk taslak İş Modeli
+                                                Kanvaslarını (Lean Canvas)
+                                                mentorlar eşliğinde doldurmaya
+                                                başlayacaktır.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">09:00 - 09:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Uygulamalı İş Modeli Atölyesi - II: Boşluk Analizi</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mustafa Halid Karaarslan</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Modeldeki Risklerin Tespiti (Gap Analysis)</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Oluşturulan modellerdeki mantıksal
+                                                tutarsızlıkların tespiti, rakip analizi
+                                                ile modelin güçlendirilmesi ve pivot
+                                                (eksen kayması) ihtiyacının
+                                                değerlendirilmesi yapılacaktır.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00 - 10:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Uygulamalı İş Modeli Atölyesi - III: Akran Değerlendirmesi</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mustafa Halid Karaarslan</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Çapraz Sorgu ve Finalizasyon (Peer-Review)</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Grupların iş modellerini birbirlerine
+                                                sundukları, katılımcıların "yatırımcı
+                                                gözüyle" arkadaşlarının modellerini
+                                                eleştirdikleri interaktif
+                                                değerlendirme seansıdır. (Ders
+                                                sonu 10 soruluk değerlendirme
+                                                testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:00 - 11:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Ticarileşme Stratejileri - I: Satış Hunisi ve B2B Pazarlama</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mehmet Zahid Ecevit</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Satış Hunisi (Sales Funnel) Kurulumu</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Potansiyel müşteriye ulaşma
+                                                kanalları, Lead (müşteri adayı)
+                                                oluşturma, soğuk e-posta/arama
+                                                teknikleri ve satış hunisinin
+                                                aşamaları anlatılacaktır.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:00 - 12:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Ticarileşme Stratejileri - II: Satış Kapama ve CRM</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mehmet Zahid Ecevit</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> İkna Teknikleri ve Müşteri İlişkileri Yönetimi</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Müşteri itirazlarını karşılama, satışı
+                                                kapatma (Closing) taktikleri ve
+                                                müşteri sadakati oluşturmak için
+                                                CRM sistemlerinin kullanımı
+                                                simülasyonlarla işlenecektir. (Ders
+                                                sonu 10 soruluk değerlendirme
+                                                testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:45 - 14:00</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5 className='alert alert-success'>Öğle Arası</h5>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">14:00 - 14:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Finansal Yönetim - I: Birim Ekonomisi</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Hasan Uygurtürk</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Girişim Matematiği ve Karlılık Analizi</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Müşteri Edinme Maliyeti (CAC),
+                                                Yaşam Boyu Değer (LTV),
+                                                Başabaş Noktası (Break-even) ve
+                                                Marj hesaplamaları gibi temel
+                                                finansal metrikler öğretilecektir.
+                                                : İkinci grup sunumlarının
+                                                tamamlanması, genel
+                                                değerlendirme, en başarılı
+                                                projelerin ilanı ve katılım
+                                                b</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">15:00 - 15:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Finansal Yönetim - II: Yatırımcı İlişkileri</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Hasan Uygurtürk</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Yatırım Turu Süreçleri ve Şirket Değerleme</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Melek yatırımcı ve VC farkları,
+                                                yatırım süreçleri (Term Sheet),
+                                                hisse paylaşımı (Cap Table) ve
+                                                değerleme mantığı ele alınacaktır.
+                                                (Ders sonu 10 soruluk
+                                                değerlendirme testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">16:00 - 16:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Sunum Teknikleri - I: Hikayeleştirme Sanatı</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Hakan Cengiz</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Storytelling ve İçerik Akışı</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Yatırımcı sunumunun (Pitch Deck)
+                                                standart akışı, verilerin
+                                                hikayeleştirilmesi ve dinleyiciyi ikna
+                                                etmenin psikolojik temelleri
+                                                anlatılacaktır.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">17:00 - 17:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Sunum Teknikleri - II: Görsel Tasarım ve Sahne</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Hakan Cengiz</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Slayt Tasarımı ve Beden Dili</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Etkili slayt tasarımı prensipleri,
+                                                sahne hakimiyeti, ses tonu
+                                                kullanımı, heyecan kontrolü ve
+                                                soru-cevap (Q&A) yönetimi
+                                                teknikleri işlenecektir. (Ders sonu
+                                                10 soruluk değerlendirme testi)</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="tab-pane fade" id="day3" role="tabpanel" aria-labelledby="d3-tab" data-aos="fade-up">
+                                <ul class="pt-4 list-unstyled mb-0">
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">08:00 - 08:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Veri Odaklı Yönetim - I: KPI Belirleme</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Tuğrul Bayraktar</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Performans Göstergeleri ve Kuzey Yıldızı Metriği</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Girişimin başarısını ölçmek için
+                                                doğru KPI'ların (Anahtar
+                                                Performans Göstergesi) seçimi ve
+                                                "Kuzey Yıldızı Metriği" (North Star
+                                                Metric) belirleme çalışması
+                                                yapılacaktır.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">09:00 - 09:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Veri Odaklı Yönetim - II: Büyüme (Growth) Analitiği</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Tuğrul Bayraktar</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> AARRR Hunisi ve Kohort Analizi</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Korsan Metrikleri (Acquisition,
+                                                Activation, Retention, Referral,
+                                                Revenue) üzerinden büyüme
+                                                stratejileri ve analitik araçların
+                                                (Google Analytics vb.) kullanımı
+                                                gösterilecektir. (Ders sonu 10
+                                                soruluk değerlendirme testi)</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">10:00 - 10:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Etkin Liderlik ve İnsan Kaynakları Yönetimi</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Cansel Arkalıç Shakir</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Liderlik Özellikleri, İnsan Kaynaklarının Önemi ve Ekip Motivasyonu</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Bu oturumda katılımcılara liderlik
+                                                kavramı ve insan kaynakları
+                                                yönetiminin organizasyon
+                                                başarısındaki rolü aktarılacaktır.
+                                                Etkin liderlerin sahip olması
+                                                gereken temel özellikler, insan
+                                                kaynağının kurumsal
+                                                sürdürülebilirlik açısından önemi ve
+                                                günümüz iş dünyasında liderlik ile
+                                                insan kaynakları süreçlerinde
+                                                karşılaşılan güncel zorluklar ele
+                                                alınacaktır. Ayrıca ekip çalışması
+                                                kültürü oluşturma, çalışan
+                                                motivasyonunu artırma yöntemleri
+                                                ve uygulamaya yönelik liderlik
+                                                yaklaşımları örnekler üzerinden
+                                                incelenecektir.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">11:00 - 11:45<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Sunum Simülasyonu - I: Prova ve Mentorluk</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Samet Nohutçu</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Sunum Hazırlığı ve Son Dokunuşlar</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> Katılımcıların sahne öncesi son
+                                                provalarını yaptıkları, mentorlardan
+                                                slaytları ve konuşma metinleri için
+                                                birebir düzeltme aldıkları hazırlık
+                                                oturumudur.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">12:00 - 13:00</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5 className='alert alert-success'>Öğle Arası</h5>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">13:00 - 14:00<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Sunum Simülasyonu - II: Demo Day (Grup A)</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> Mustafa Buğday</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Sahne Performansı ve Yatırımcı Jürisi</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span> İlk grup katılımcıların projelerini jüri
+                                                karşısında (3 dk sunum + 2 dk
+                                                soru/cevap) sundukları ve
+                                                puanlandıkları simülasyon
+                                                oturumudur.</p>
+                                        </div>
+                                    </li>
+
+                                    <li class="d-flex flex-column flex-md-row py-4">
+                                        <span class="flex-shrink-0 width-13x me-md-4 d-block mb-3 mb-md-0 small text-muted">14:00 - 15:00<br /> Ders Saati: 1</span>
+                                        <div class="flex-grow-1 ps-4 border-start border-3">
+                                            <h5><span className='poppins-bold second-color'>DERS ADI:</span> Sunum Simülasyonu - III: Demo Day (Grup B) ve Kapanış</h5>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>DERS VERECEK ÖĞRETİM ÜYESİ:</span> İbrahim Zorlu</p>
+                                            <p class="mb-0"><span className='poppins-bold second-color'>KONU:</span> Geri Bildirim, Değerlendirme ve Sertifika Töreni</p>
+                                            <p><span className='poppins-bold second-color'>DETAYLI DERS İÇERİĞİ:</span>  İkinci grup sunumlarının
+                                                tamamlanması, genel
+                                                değerlendirme, en başarılı
+                                                projelerin ilanı ve katılım
+                                                belgelerinin verilmesiyle program
+                                                sonlandırılacaktır.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</div>
-  )
+    )
 }
 
 export default EgitimProgrami

@@ -1,21 +1,23 @@
-
-*{
+* {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
 }
-.notFound{
+
+.notFound {
   background-image: url('./images/404.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-.hero{
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('./images/arge.jpg');
+
+.hero {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./images/arge.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
 }
-.hero-iletisim{
+
+.hero-iletisim {
   background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('./images/teknokent.jpg');
   background-repeat: no-repeat;
   background-size: cover;

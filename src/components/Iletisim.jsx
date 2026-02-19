@@ -9,7 +9,7 @@ function Iletisim() {
   })
   return (
       <div>
-        <div className="hero-iletisim d-flex align-items-center justify-content-center">
+        <div className="hero d-flex align-items-center justify-content-center">
           <div className="text-light p-5">
             <h1 className='poppins-bold'>İLETİŞİM</h1>
           </div>
@@ -24,7 +24,7 @@ function Iletisim() {
                     <div>
                       <h4 className="mb-2">Adres</h4>
                       <hr className="w-50 mb-3 border-dark-subtle" />
-                      <address className="m-0 text-secondary">Karabük Üniversitesi Teknoloji Geliştirme Bölgesi Yönetici A.Ş. Kılavuzlar Mah. 413. SK. Karabük Üniversitesi Sosyal Tesis Blok No:8 Merkez/KARABÜK</address>
+                      <address className="m-0 text-secondary">Karabük Teknokent Teknoloji Transfer Ofisi Yönetici A.Ş. Kılavuzlar Mah. 413. SK. Karabük Üniversitesi Sosyal Tesis Blok No:8 Merkez/KARABÜK</address>
                     </div>
                   </div>
                   <div className="row mb-sm-4 mb-md-5">
@@ -35,7 +35,7 @@ function Iletisim() {
                           <h4 className="mb-2">Telefon</h4>
                           <hr className="w-75 mb-3 border-dark-subtle" />
                           <p className="mb-0">
-                            <a className="link-secondary text-decoration-none" href="tel:+903705021878">0(370) 502 18 78</a>
+                            <a className="link-secondary text-decoration-none" href="tel:+903705021878">0(552) 739 30 09</a>
                           </p>
                         </div>
                       </div>
@@ -48,7 +48,7 @@ function Iletisim() {
                           <hr className="w-75 mb-3 border-dark-subtle" />
                           <p className="mb-0">
                             <a className="link-secondary text-decoration-none"
-                              href="mailto:iletisim@kbutgb.com.tr">iletisim@kbutgb.com.tr</a>
+                              href="mailto:iletisim@kbutgb.com.tr">tto@kbutgb.com.tr</a>
                           </p>
                         </div>
                       </div>
@@ -61,7 +61,7 @@ function Iletisim() {
                       <hr className="w-50 mb-3 border-dark-subtle" />
                       <div className="d-flex mb-1">
                         <p className="text-secondary fw-bold mb-0 me-5">PZT - CUM</p>
-                        <p className="text-secondary mb-0">9:00 - 18:00</p>
+                        <p className="text-secondary mb-0">8:30 - 17:30</p>
                       </div>
                       <div className="d-flex">
                         <p className="text-secondary fw-bold mb-0 me-5">HAFTASONU</p>

@@ -23,23 +23,23 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Menu/>
-          <Routes>
-            <Route path="/" element={<Anasayfa/>} />
-            <Route path="/anasayfa" element={<Anasayfa/>} />
-            <Route path="/amac-ve-kapsam" element={<AmacVeKapsam/>} />
-            <Route path="/iletisim" element={<Iletisim/>} />
-            <Route path="/hakkimizda" element={<Hakkimizda/>} />
-            <Route path="/duzenleme-kurulu" element={<DuzenlemeKurulu/>} />
-            <Route path="/bilim-kurulu" element={<BilimKurulu/>} />
-            <Route path="/katilimci-degerlendirme" element={<KatilimciDegerlendirma/>} />
-            <Route path="/konaklama" element={<Konaklama/>} />
-            <Route path="/egitmenler" element={<Egitmenler/>} />
-            <Route path="/egitim-programi" element={<EgitimProgrami/>} />
-            <Route path="/*" element={<NotFound/>} />
-          </Routes>
-        <Footer/>
-        <ToTopButton/>
+        <Menu />
+        <Routes>
+          <Route path="/" element={<Anasayfa />} />
+          <Route path="/anasayfa" element={<Anasayfa />} />
+          <Route path="/amac-ve-kapsam" element={<AmacVeKapsam />} />
+          <Route path="/iletisim" element={<Iletisim />} />
+          <Route path="/hakkimizda" element={<Hakkimizda />} />
+          <Route path="/duzenleme-kurulu" element={<DuzenlemeKurulu />} />
+          <Route path="/bilim-kurulu" element={<BilimKurulu />} />
+          <Route path="/katilimci-degerlendirme" element={<KatilimciDegerlendirma />} />
+          <Route path="/konaklama" element={<Konaklama />} />
+          <Route path="/egitmenler" element={<Egitmenler />} />
+          <Route path="/egitim-programi" element={<EgitimProgrami />} />
+          <Route path="/*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+        <ToTopButton />
         <Modal/>
       </Router>
     </div>
