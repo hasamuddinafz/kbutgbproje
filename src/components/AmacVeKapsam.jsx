@@ -22,10 +22,10 @@ function AmacVeKapsam() {
           className="row d-flex flex-column-reverse flex-md-row align-items-center justify-content-around m-5 bg-light"
           data-aos="fade-up"
         >
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-5 col-md-12 col-12 p-4">
             <img src={amac} className="img-fluid" alt="" />
           </div>
-          <div className="col-lg-8 col-md-7 p-3">
+          <div className="col-lg-7 col-md-12 col-12 p-3">
             <h1 className="main-color my-3 poppins-bold">Amaç</h1>
             <p className="text-justified">
               Ülkemizin 12. Kalkınma Planı ve Milli Teknoloji Hamlesi hedefleri
@@ -76,7 +76,7 @@ function AmacVeKapsam() {
           className="row d-flex align-items-center justify-content-around m-5 bg-light"
           data-aos="fade-up"
         >
-          <div className="col-lg-8 col-md-7 p-3">
+          <div className="col-lg-7 col-md-12 col-12 p-3">
             <h1 className="main-color my-3 poppins-bold">Kapsam</h1>
             <p className="text-justified">
               Bu etkinlik; salt bir bilgi aktarım programı olmanın ötesinde,
@@ -146,7 +146,7 @@ function AmacVeKapsam() {
               çıktıları üretmek için gerekli tüm yetkinliklere sahiptir
             </p>
           </div>
-          <div className="col-lg-4 col-md-6">
+          <div className="col-lg-5 col-md-12 col-12 p-4">
             <img src={kapsam} className="img-fluid" alt="" />
           </div>
         </div>

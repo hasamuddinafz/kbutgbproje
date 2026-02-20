@@ -11,10 +11,15 @@
 }
 
 .hero {
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./images/arge.jpg');
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('./images/arge.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
+}
+
+.hero h1,
+.hero-iletisim h1 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
 
 .hero-iletisim {

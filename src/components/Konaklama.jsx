@@ -23,7 +23,7 @@ function Konaklama() {
       <div className="container py-5">
         <div className="row d-flex align-items-center" data-aos="fade-up">
           {/* Column for the image */}
-          <div className="col-md-4 col-12">
+          <div className="col-lg-5 col-md-12 col-12 p-3">
             <img
               src={KonaklamaYeri}
               alt="Sosyal Yasam Merkezi"
@@ -32,7 +32,7 @@ function Konaklama() {
           </div>
 
           {/* Column for the text content */}
-          <div className="col-md-8">
+          <div className="col-lg-7 col-md-12 col-12">
             <div className="container p-5 my-5">
               {/* Heading and paragraph */}
               <h1 className="pb-3">
